@@ -1,0 +1,380 @@
+@media all and (max-width:1200px) {
+    html{
+        font-size: 15px;
+    }
+    .blog-right-item {
+        padding: .9rem;
+    }
+}
+@media all and (max-width:992px) {
+    html{
+        font-size: 14px;
+    }
+    .main-header .logo {
+        width: 100%;
+        text-align: center;
+        padding: .5rem 0;
+    }
+    .banner-section {
+        height: 75vh;
+    }
+    .banner-content {
+        padding-top: 25px;
+    }
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .about-left {
+        padding: 35px;
+        flex-basis: 60%;
+    }
+    .about-right {
+        flex-basis: 37%;
+    }
+    .catagory-item {
+        flex-basis: 48%;
+    }
+    .course-item {
+        flex-basis: 48%;
+    }
+    .blog-right-item {
+        padding: .7rem;
+        margin-bottom: .5rem;
+    }
+    .faq-item:nth-child(1){
+        flex-basis: 45%;
+    }
+    .faq-item:nth-child(2){
+        flex-basis: 55%;
+        padding-right: 0;
+    }
+    .faq-item a {
+        top: -179px;
+        left: 46%;
+    }
+    .faq-item h1 {
+        font-size: 1.8rem;
+    }
+    .br-left strong {
+        font-size: 2rem;
+        color: var(--secondary);
+    }
+    .br-right {
+        padding: 10px;
+    }
+    .newslatter {
+        padding: 50px;
+    }
+    .top-footer-item {
+        flex-basis: 50%;
+        margin-bottom: 15px;
+    }
+    .testimonial-item {
+        padding: 11px 27px 56px;
+    }
+}
+@media all and (max-width:768px) {
+    .top-header {
+        justify-content: center;
+    }
+    .header-contact {
+        justify-content: space-between;
+        flex-basis: 100%;
+        padding: 10px 0;
+    }
+    .header-user {
+        justify-content: space-between;
+        flex-basis: 100%;
+        order: -1;
+    }
+    .main-header {
+        width: 80%;
+        margin: auto;
+    }
+    .main-menu {
+        flex-basis: 100%;
+    }
+    .main-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        flex-direction: column;
+        max-width: 100%;
+        text-align: left;
+    }
+    .main-menu ul li a::before {
+        content: "\f078";
+        font-family: 'Font Awesome 6 Free';
+        font-weight: 600;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: rotate(0);
+        width: 50px;
+        height: 99%;
+        text-align: center;
+        line-height: 40px;
+        background: #dddddd;
+    }
+    .main-menu ul li a:hover::before{
+        opacity: 1;
+    }
+    .main-menu ul li a::after{
+        content: none;
+    }
+    .right-menu{
+        display: none;
+    }
+    .main-header .logo {
+        flex-basis: auto;
+        text-align: left;
+    }
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 0;
+        font-size: 30px;
+        cursor: pointer;
+        pointer-events: none;
+    }
+    .mobile-menu-click {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: -1px;
+        height: 30px;
+        width: 30px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .main-menu ul li {
+        border-bottom: 1px solid #000;
+    }
+    .main-menu ul li a{
+        padding: 15px 0;
+    }
+
+    .mobile-menu-click:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        height: auto;
+    }
+    .mega-menu{
+        width: 200px;
+    }
+    .banner-section {
+        height: 65vh;
+    }
+    .about {
+        top: -33px;
+    }
+    .about-left {
+        flex-basis: 100%;
+    }
+    .about-right {
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+    .about-left p {
+        line-height: 1.5rem;
+    }
+    .about-right ul li span {
+        width: 20%;
+    }
+    .about-right ul li p {
+        width: 75%;
+    }
+    .catagory {
+        padding: 10px 0;
+    }
+    .section-heading {
+        padding: 16px 0;
+        flex-direction: column;
+        text-align: center;
+    }
+    .section-heading h1 {
+        font-size: 2rem;
+    }
+    .faq-item ul li strong {
+        padding: 1rem;
+    }
+    .faq-item ul li strong span::after {
+        top: 2px;
+        left: 6px;
+        font-size: 1.7rem;
+    }
+    .faq-item ul li .click-btn:checked ~ p {
+        padding: 12px;
+    }
+    .faq-item ul li .click-btn {
+        height: 30px;
+        margin-bottom: 5px;
+    }
+    .catagory-item {
+        flex-basis: 100%;
+    }
+    .teacher-item {
+        flex-basis: 100%;
+    }
+    .teacher-item img {
+        width: 100%;
+    }
+    .top-footer-item {
+        flex-basis: 100%;
+    }
+    .testimonial-item {
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+    .blog-left-section {
+        flex-basis: 100%;
+    }
+    .blog-right-section {
+        flex-basis: 100%;
+    }
+    .br-left {
+        flex-direction: column;
+        display: flex;
+    }
+    .newslatter {
+        justify-content: center;
+        top: 115px;
+    }
+    .newslatter-heading {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    form {
+        flex-basis: 79%;
+    }
+    .input-form {
+        padding: 15px;
+        font-size: 1rem;
+    }
+    .input-btn {
+        padding: 15px 35px;
+    }
+    .top-footer-item {
+        margin-left: 50px;
+    }
+    .top-footer-item h3 {
+        font-size: 2rem;
+    }
+    .footer-bottom {
+        padding: 20px 20px;
+    }
+    .footer-bottom .logo {
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .default-btn {
+        padding: 9px 19px;
+        font-size: 1rem;
+        border-radius: 22px;
+    }
+    .admission-left {
+        flex-basis: 100%;
+    }
+    .admission-details {
+        flex-basis: 100%;
+        padding: 16px 40px;
+    }
+    .admission-details p {
+        padding: 16px 0;
+    }
+    .admission {
+        padding: 18px 0;
+    }
+    .faq {
+        padding: 10px 0;
+    }
+    .faq-item:nth-child(1) {
+        flex-basis: 100%;
+        order: 1;
+    }
+    .faq-item:nth-child(2) {
+        flex-basis: 100%;
+    }
+    .teacher-item {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+    .teacher-item img {
+        width: 100%;
+    }
+    .testimonal-section {
+        padding: 10px 0 50px;
+    }
+
+}
+@media all and (max-width:600px) {
+    .banner-content h1 {
+        font-size: 1.5rem;
+    }
+    .banner-content p {
+        font-size: 1rem;
+    }
+    .about-left {
+        padding: 25px;
+    }
+    .about-left h1 {
+        margin-bottom: 5px;
+        font-size: 1.7rem;
+    }
+    .about-profile {
+        flex-direction: column;
+    }
+    .profile-details {
+        margin-left: 0;
+        text-align: center;
+    }
+    .catagory-section {
+        justify-content: center;
+    }
+    .catagory-item {
+        flex-basis: 90%;
+        justify-content: space-evenly;
+    }
+    .course-item{
+        flex-basis: 100%;
+    }
+    .course-item img {
+        width: 100%;
+    }
+    .testimonial-item:nth-child(1) {
+        margin-top: 0;
+    }
+    .bl-content p {
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    .blog {
+        padding: 10px 0 0px;
+        margin-bottom: -20px;
+    }
+    .newslatter {
+        top: 50px;
+        padding: 10px;
+    }
+    .blog-heading {
+        font-size: 1.2rem;
+    }
+    .input-form {
+        flex-basis: 100%;
+    }
+    .input-btn {
+        flex-basis: 100%;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .footer-bottom {
+        justify-content: center;
+    }
+    .copyright {
+        order: 1;
+        margin-top: 10px;
+    }
+}
